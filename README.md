@@ -16,3 +16,10 @@
 - React (또는 사용한 프레임워크)
 - Node.js (또는 백엔드)
 - Axios, Redux 등 사용한 라이브러리들
+
+## 주요 로직 및 코드 구조
+
+- App.jsx : 전체 라우팅과 페이지 구성
+- ProductList.jsx : 전체 상품 목록 불러오기 및 표시 (axios 사용)
+- productlist.css : css
+- api/productApi.js axios로 API 호출 모듈 정리 (리팩토링 시)
